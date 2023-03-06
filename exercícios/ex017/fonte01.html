@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Mork Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc(paica)
+
+            Medidas Relativas
+            em(altura do M maiúsculo de uma fonte), ex(altura-x), rem, vw(view width),vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            
+            /*font wights: lighter, normal, bold, bolder*/
+        }
+
+        h1 {
+        /*  font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: 3em;
+            text-decoration: underline;                 */
+            
+            /*shorthand font
+                font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore ipsam, qui doloremque blanditiis porro, nobis placeat, laudantium nam sequi quisquam. Fugiat officiis error nulla quia delectus reiciendis accusantium ipsa!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus, minima quibusdam voluptatibus non hic, et blanditiis nisi consectetur aliquam porro sint corrupti obcaecati culpa repellat id cum, reiciendis ad?</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reprehenderit sunt ipsam, illo numquam vero totam voluptatem maiores recusandae ullam tempora temporibus adipisci fuga aspernatur ipsum. Asperiores quaerat nemo quidem.
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid at alias debitis accusantium! Obcaecati, tempora, placeat fugiat reprehenderit laudantium, dolore distinctio unde alias earum natus recusandae iusto. Quo, assumenda similique?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime quibusdam doloremque culpa, consequuntur veritatis quod quas fugiat quos dolores ipsa mollitia error corrupti facere debitis illum similique fugit quam?</p>
+</body>
+</html>
